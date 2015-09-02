@@ -22,8 +22,8 @@
 *                                                                             *
 * Contact information: contact@sofa-framework.org                             *
 ******************************************************************************/
-#ifndef SOFA_INIT_BULLET_COLLISION_INIT
-#define SOFA_INIT_BULLET_COLLISION_INIT
+#ifndef BULLETCOLLISIONDETECTION_CONFIG_H
+#define BULLETCOLLISIONDETECTION_CONFIG_H
 
 #include <sofa/helper/system/config.h>
 
@@ -33,16 +33,4 @@
 #  define SOFA_BULLETCOLLISIONDETECTION_API SOFA_IMPORT_DYNAMIC_LIBRARY
 #endif
 
-namespace sofa
-{
-
-namespace component
-{
-
-
-} // namespace component
-
-} // namespace sofa
-
 #endif
-
